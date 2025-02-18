@@ -23,6 +23,7 @@ it('is placeholder visible', () => {
 });
 
 it('ne tuščias sąrašas', () => {
+    cy.addToDos('sessionName');
     cy.visit('https://todolist.james.am/#/');
     cy.get('input.new-todo').type('1 uzduotis{enter}');
     cy.get('input.new-todo').type('2 uzduotis{enter}');
@@ -32,9 +33,11 @@ it('ne tuščias sąrašas', () => {
         cy.log($el)
     });
     cy.get('ul.todo-list li')
-    .each(($el, $list) => {
-        cy.log($el, $list)})
-        .then(($list)=>{
-expect($list).to.have.length(3);
+        .each(($el, $list) => {
+            $el.dblclick();
+            cy.log($el, $list)
+        })
+        .then(($list) => {
+            expect($list).to.have.length(9);
         })
 });
