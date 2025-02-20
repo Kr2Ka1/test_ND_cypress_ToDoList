@@ -1,0 +1,20 @@
+{
+    "users": [
+      {
+        "user": "john_doe",
+        "admin": false,
+        "password": "password123"
+      },
+      {
+        "user": "jane_smith",
+        "admin": true,
+        "password": "securePass!456"
+      },
+      {
+        "user": "mike_brown",
+        "admin": false,
+        "password": "mikePass789"
+      }
+    ]
+  }
+  
