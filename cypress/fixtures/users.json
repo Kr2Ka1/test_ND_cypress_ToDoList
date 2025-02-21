@@ -1,19 +1,19 @@
 {
     "users": [
       {
-        "user": "john_doe",
-        "admin": false,
-        "password": "password123"
+        "name": "john_doe",
+        "email": "asdf@sdf.dd",
+        "body": "qiwedvn jsdncv naksjdfvoadfvasdfv"
       },
       {
-        "user": "jane_smith",
-        "admin": true,
-        "password": "securePass!456"
+        "name": "john_doe",
+        "email": "asdf@sdf.dd",
+        "body": "qiwedvn jsdncv naksjdfvoadfvasdfv"
       },
       {
-        "user": "mike_brown",
-        "admin": false,
-        "password": "mikePass789"
+        "name": "john_doe",
+        "email": "asdf@sdf.dd",
+        "body": "qiwedvn jsdncv naksjdfvoadfvasdfv"
       }
     ]
   }
